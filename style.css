@@ -226,7 +226,8 @@ margin: 100px auto;
     }
 
     #mypic {
-        width: 99px;
+        width: 3.1rem;
+        border-radius: 100%;
     }
 
     h1 {
