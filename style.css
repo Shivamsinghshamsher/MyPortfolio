@@ -193,3 +193,85 @@ margin: 100px auto;
     font-size: .75rem;
     padding: 20px 0px;
   }
+
+
+@media only screen and (max-width: 600px) {
+
+    body {
+        box-sizing: border-box;
+        /* overflow: hidden; */
+    }
+
+    .top-cloud {
+        position: absolute;
+        width: 45px;
+        right: 6rem;
+        top: 11rem;
+    }
+
+    .bottom-cloud {
+        position: absolute;
+        top: 13rem;
+        left: 6rem;
+        width: 30px;
+    }
+
+    .top-container {
+        padding-top: 20px;
+    }
+
+    .mountain {
+        width: 48vw;
+
+    }
+
+    #mypic {
+        width: 99px;
+    }
+
+    h1 {
+        font-size: 2.625rem;
+
+    }
+
+    h2 {
+        color: #66bfbf;
+        font-weight: normal;
+        font-size: 1.5rem;
+        margin: 3px 0 0 0;
+    }
+
+    .intro {
+        width: 75%;
+    }
+
+    .coding-gif {
+        height: 5rem;
+        width: 5rem;
+    }
+
+    hr {
+        margin: 50px auto;
+    }
+
+    .skill-row {
+        margin: 24px;
+        width: 90%;
+    }
+
+    .Contact-message {
+        width: 90%;
+    }
+
+    .middle-container {
+        margin: 51px 0;
+    }
+
+    h3 {
+        font-size: 60%;
+    }
+
+    h2 {
+        font-weight: bold;
+    }
+}
